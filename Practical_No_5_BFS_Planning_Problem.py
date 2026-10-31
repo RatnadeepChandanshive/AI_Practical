@@ -74,3 +74,15 @@ if solution:
         print_state(state)
 else:
     print("No solution found.")
+
+# Algorithm 
+
+# 1. Start with the initial state.
+# 2. Insert it into the queue and mark visited.
+# 3. While queue is not empty:
+#     - Remove front state.
+#     - If it matches goal → stop. 
+#     - Else generate successors.
+#     - Add unvisited successors to queue.
+# 4. Continue until goal state is reached.
+# 5. Print solution path.

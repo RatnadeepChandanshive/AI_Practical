@@ -39,3 +39,14 @@ while True:
 
     else:
         print("Bot : Sorry, I don't understand your question.")
+
+# Algorithm
+
+# 1. Start.
+# 2. Display welcome message.
+# 3. Read user input.
+# 4. Convert input to lowercase.
+# 5. Compare with predefined patterns.
+# 6. Display matching/default response.
+# 7. Repeat until 'bye'.
+# 8. Stop.

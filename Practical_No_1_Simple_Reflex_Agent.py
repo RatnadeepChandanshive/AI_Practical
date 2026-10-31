@@ -68,3 +68,16 @@ while True:
         print("\nBoth rooms are clean!")
         print("Action: No Operation (NoOp)")
         break
+
+
+# Algorithm 
+
+# 1. Start. 
+# 2. Read the current location of the agent. 
+# 3. Check whether the current room is Dirty or Clean. 
+# 4. If Dirty, perform Suck.
+# 5. Else, 
+#  - If at Room A, move to Room B. 
+#  - If at Room B, move to Room A. 
+# 6. Repeat until both rooms are clean. 
+# 7. Stop.

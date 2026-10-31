@@ -65,3 +65,20 @@ if solution:
     print("Total Moves =", len(solution) - 1)
 else:
     print("No Solution Found")
+
+# Algorithm : 
+
+# Input: Initial state of all disks and destination peg
+# Output: Minimum sequence of moves to reach the goal state
+# 1. Represent the current arrangement of disks as a state. 
+# 2. Insert the initial state into a queue. 
+# 3. Mark the initial state as visited. 
+# 4. Repeat until the queue becomes empty: 
+#     - Remove the first state from the queue. 
+#     - If it is the goal state, print the solution and stop. 
+#     - Generate all legal moves from the current state. 
+#     - Apply each move to obtain a new state
+#     - If the new state has not been visited: 
+#         - Mark it as visited. 
+#         - Insert it into the queue. 
+# 5. If no goal state is found, report that no solution exists.

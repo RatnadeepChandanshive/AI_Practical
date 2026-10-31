@@ -82,3 +82,16 @@ def solveNQ():
 
 # Driver Code
 solveNQ()
+
+# Algorithm
+
+# 1. Start with the first column.
+# 2. If all columns are filled, print the solution and stop.
+# 3. For each row in the current column:
+#     a. Check whether placing a queen is safe.
+#     b. If the position is safe:
+#         i. Place the queen.
+#         ii. Recursively place a queen in the next column.
+#         iii. If successful, return TRUE.
+#         iv. Otherwise, remove the queen (Backtrack).
+# 4. If no safe position exists in the current column, Return FALSE.

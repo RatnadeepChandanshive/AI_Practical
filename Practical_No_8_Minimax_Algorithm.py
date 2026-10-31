@@ -139,3 +139,15 @@ while True:
         print_board()
         print("It's a Draw!")
         break
+
+# Algorithm
+
+# 1. Start with the current game state as the root of the game tree.
+# 2. Generate all legal moves for the current player.
+# 3. Recursively expand the game tree, alternating between the maximizing player (MAX) and the minimizing player (MIN).
+# 4. Stop when a terminal state is reached (win, loss, or draw), or at a specified depth if using a cutoff.
+# 5. Assign utility values to terminal states (or evaluation-function values at the cutoff depth).
+# 6. Back up the values through the tree:
+#     a. At MAX nodes, choose the maximum child value.
+#     b. At MIN nodes, choose the minimum child value.
+# 7. Select the move from the root that has the highest minimax value.
